@@ -1,5 +1,12 @@
 #include <stdio.h>
 
+/**
+ * main - return string
+ *
+ * Description: Function prints string
+ *
+ * Return: 0 
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
