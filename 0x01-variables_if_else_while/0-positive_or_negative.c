@@ -16,18 +16,19 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	char answer[40];
 
-	answer = "is zero";
 	if (n > 0)
 	{
-		answer = "is positiver";
+		printf"%d is positive", n);
+	}
+	else if (n < 0)
+	{
+		printf("%d is negative", n);
 	}
 	else
 	{
-		answer "is negative";
+		printf("%d is zero", n)
 	}
-	printf("%d %s\n", n, answer);
 	/* your code goes there */
 	return (0);
 }
